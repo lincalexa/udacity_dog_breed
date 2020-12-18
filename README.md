@@ -51,7 +51,7 @@ Udacity provided a workspace in which to use the Jupyter notebook along with som
 ### Transfer Learning to train CNN
 * Build a CNN based on a pre-trained model using Transfer Learning
 * The minimum acceptable accuracy for the model is 60%
-* Try multiple pre-trained models - VGG16, ResNet-50, Inception, Xception
+* Try multiple pre-trained models - VGG16, ResNet-50, Inception           
 * Load the bottleneck features of the pre-trained model
 * Split the bottleneck features into Train, Validation, and Test sets
 * Add additional layers as desired, but end with a Dense layer with 133 categories and softmax activation
