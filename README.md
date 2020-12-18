@@ -6,6 +6,8 @@ The goal of this project is to build models to identify if an image has a human 
 
 Udacity provided a workspace in which to use the Jupyter notebook along with some helpful starter instructions and code snippets.  By using the Udacity workspace, no environment setup was required and a GPU was available to speed things up.
 
+For more details check out the blog post: https://alexanli-wk.medium.com/cool-dog-i-wonder-what-kind-it-is-8833470767cd
+
 ### Udacity provided the files related to dog and human images.  
 * Train, Validation, and Test dog images were provided in the form of paths to images
 * Train, Validation, and Test dog target files were provided containing one-hot encoded classification tables
@@ -32,7 +34,7 @@ Udacity provided a workspace in which to use the Jupyter notebook along with som
 * the ResNet-50 model's predict method is used to get the prediction of whether the image contains a dog or not
 * Argmax is used to get the integer corresponding to the model's predicted object class
 * ImageNet provides this dictionary to identify the predicted object class - https://gist.github.com/yrevar/942d3a0ac09ec9e5eb3a
-* Dog breeds occur between indexes 151-268, inclusive, so if the predicted object class falls in this range a dog is detected
+  * Dog breeds occur between indexes 151-268, inclusive, so if the predicted object class falls in this range a dog is detected
 
 ### Convolutional Neural Network (CNN)
 * Build a CNN to determine the breed of dog when a dog is detected in an image or the breed a human looks like when a human is detected
