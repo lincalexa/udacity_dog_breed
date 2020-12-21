@@ -66,6 +66,13 @@ For more details check out the blog post: https://alexanli-wk.medium.com/cool-do
 * If neither a dog or human is detected, return an error
 * Supply a set of images and test the algorithm
 
+### Project Results
+* Human Face detection used pre-trained OpenCV model and achieved a test accuracy of 100% given human images
+* Dog detection used a pre-trained ResNet-50 model and achieved a test accuracy of 100% given dog images
+* CNN created from scratch achieved a base test accuracy of 11.6029% surpassing the 1% minimum
+* CNN created from scratch with data augmentation achieved a test accuracy of 15.3110%
+* Transfer learning CNN based on InceptionV3 pre-trained model achieved a test accuracy of 81.6986% surpassing the 60% minimum
+
 
 ## Installations
 Jupyter notebook and helper files build using Python v3.8.3
